@@ -1,0 +1,49 @@
+title: Jamison Kissh Blog
+email: hello@jamisonkissh.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Jamison Kissh's blog
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jamisonkissh
+github_username:  jak119@gmail.com
+
+# Build settings
+theme: jekyll-theme-so-simple
+
+exclude:
+  - .devcontainer
+
+permalink: /:categories/:title/
+markdown: kramdown
+feed:
+  path: atom.xml
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-paginate
+
+# Front Matter Defaults
+defaults:
+  # Posts defaults
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: post
+      share: true
+
+# Site Author
+author:
+  name: Jamison Kissh
+  picture:
+  email: hello@jamisonkissh.com
+
+# Footer Links
+footer_links:
+  - title: Feed
+    url: atom.xml
+    icon: fas fa-rss-square
+
+search_full_content: true
