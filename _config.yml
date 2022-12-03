@@ -32,13 +32,13 @@ defaults:
       type: posts
     values:
       layout: post
-      share: true
+      share: false
 
 # Site Author
 author:
   name: Jamison Kissh
-  picture:
   email: hello@jamisonkissh.com
+  url: "https://blog.jamisonkissh.com"
 
 # Footer Links
 footer_links:
