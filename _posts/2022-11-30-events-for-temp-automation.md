@@ -18,4 +18,4 @@ event: goodnight_script
 event_data: {}
 ```
 
-so that I can write individual automations with a simple trigger based on the `goodnight_script` event. I can add, remove, and disable them without overthinking what other implications there may be.
+so that I can write individual automations with a simple trigger based on the `goodnight_script` event. I can add, remove, and disable them without overthinking what other implications there may be. And when I innevitably forget to disable an automation and remove the plug from Home Assistant, only one automation will fail and it won't cascade or prevent further steps in one giant automation from running.
