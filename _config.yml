@@ -46,4 +46,7 @@ footer_links:
     url: atom.xml
     icon: fas fa-rss-square
 
+# Theme options
 search_full_content: true
+category_archive_path: "/categories/#"
+tag_archive_path: "/tags/#"
