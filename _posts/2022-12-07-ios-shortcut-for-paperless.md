@@ -7,7 +7,7 @@ tags:
   - ios shortcuts
 ---
 
-Over the past couple of years I've slowly been putting all of my paperwork into Paperless (first Paperless-ng and now [Paperless-ngx](https://github.com/paperless-ngx/paperless-ngx#readme)). One of the things I've been meaning to do for a while now is create an iOS Shortcut to directly upload a file to Paperless without needing to email it or use the not-so-great mobile web interface. This means I could open a PDF someone sends me in iMessage and upload it straight to Paperless without any intermediary step of saving it to iCloud or emailing it.
+Over the past couple of years I've slowly been putting all of my paperwork into Paperless (first Paperless-ng and now [Paperless-ngx](https://github.com/paperless-ngx/paperless-ngx#readme)). One of the things I've been meaning to do for a while now is create an [iOS Shortcut](https://support.apple.com/guide/shortcuts/welcome/ios) to directly upload a file to Paperless without needing to email it or use the not-so-great mobile web interface. This means I could open a PDF someone sends me in iMessage and upload it straight to Paperless without any intermediary step of saving it to iCloud or emailing it.
 
 ## POST to Paperless
 
