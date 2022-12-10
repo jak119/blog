@@ -1,10 +1,11 @@
 ---
 title: "How to Use Service Auth on Cloudflare Access"
 categories:
-  - Cloudflare
+  - SelfHosting
 tags:
   - service auth
   - cloudflare teams
+  - cloudflare
 ---
 
 I didn't love Cloudflare's documentation, so here's a (very) quick guide to using Service Auth on Cloudflare Access. This guide assumes you've gone through and [set up Cloudflare Zero Trust](https://developers.cloudflare.com/cloudflare-one/setup/) and have an existing application.
