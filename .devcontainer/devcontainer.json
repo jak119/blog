@@ -5,7 +5,7 @@
 	"image": "mcr.microsoft.com/devcontainers/jekyll:0-bullseye",
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
-	// "features": {"node"},
+	// "features": {},
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	"forwardPorts": [
@@ -16,7 +16,10 @@
 	],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "sh .devcontainer/post-create.sh"
+	"postCreateCommand": "sh .devcontainer/post-create.sh",
+	"features": {
+		"ghcr.io/devcontainers/features/node:1": {}
+	}
 
 	// Configure tool-specific properties.
 	// "customizations": {},
