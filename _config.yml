@@ -41,10 +41,10 @@ author:
   url: "https://blog.jamisonkissh.com"
 
 # Footer Links
-footer_links:
-  - title: Feed
-    url: atom.xml
-    icon: fas fa-rss-square
+# footer_links:
+#   - title: Feed
+#     url: atom.xml
+#     icon: fas fa-rss-square
 
 # Theme options
 search_full_content: true
