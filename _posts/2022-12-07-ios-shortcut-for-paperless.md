@@ -17,11 +17,11 @@ I'll skip to the interesting part, below is a screenshot that shows most of what
 
 You'll use the "Get contents of" action and the URL will be `$yourURL` and the API URL is `/api/documents/post_document/` (including the trailing slash).
 
-The method is `POST` and you'll need to pass an authorization header. In my case I chose to [create a token](#creating-an-auth-token) and provide it prefixed with `Token`. 
+The method is `POST` and you'll need to pass an authorization header. In my case I chose to [create a token](#creating-an-auth-token) and provide it prefixed with `Token`.
 
 The key part of the body is to select the form type and provide a `document` which in my case is `Shortcut Input`.
 
-If `Shortcut Input` doesn't appear as an option hit the little *i* icon at the bottom of the screen and turn on "Show in Share Sheet" then go back to your shortcut.
+If `Shortcut Input` doesn't appear as an option hit the little _i_ icon at the bottom of the screen and turn on "Show in Share Sheet" then go back to your shortcut.
 
 In my example you may also notice I provided a few extra form fields which are nicely documented in [the API docs](https://docs.paperless-ngx.com/api/#file-uploads). I show a couple of inputs, save the input to a variable, and then pass that variable in here.
 

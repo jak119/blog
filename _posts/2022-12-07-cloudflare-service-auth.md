@@ -21,10 +21,10 @@ I didn't love Cloudflare's documentation, so here's a (very) quick guide to usin
 1. Expand Access > Applications
 1. Click Edit on the application you want to use the service token for
 1. Add a **new** policy
-    * You can't add a service token to a policy that has users
+   - You can't add a service token to a policy that has users
 1. Give your policy a name, **under action select service auth**
 1. Add an include rule
-    1. Select Service Token and add the token you created above
+   1. Select Service Token and add the token you created above
 1. Save your new policy
 
 ## Using Tokens
