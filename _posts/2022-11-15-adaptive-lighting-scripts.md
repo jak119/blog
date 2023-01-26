@@ -14,15 +14,18 @@ I'm a big fan of the [Adaptive Lighting](https://github.com/basnijholt/adaptive-
 To find all the sleep mode switches I use this template
 
 {% raw %}
+
 ```text
 {{ states.switch | map(attribute='entity_id') | select('search',
         'switch.adaptive_lighting_sleep_mode_*') | join(',') }}
 ```
+
 {% endraw %}
 
 Then you can use that in a script (or automation) kind of like this
 
 {% raw %}
+
 ```yaml
 alias: Light Sleep Mode - Turn Off
 sequence:
@@ -34,6 +37,6 @@ sequence:
         'switch.adaptive_lighting_sleep_mode_*') | join(',') }}
 mode: single
 icon: mdi:sleep-off
-
 ```
+
 {% endraw %}
