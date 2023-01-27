@@ -7,7 +7,12 @@ tags:
   - addon
   - cloudflare
   - cloudflare teams
+excerpt_separator: <!--more-->
 ---
+
+If you'd like to set up and use Cloudflare Tunnels (or Cloudlfare Teams) with Home Assistant this guide should help you get started. It heavily leverages [Tobias Brenner's Cloudflared add-on](https://github.com/brenner-tobias/ha-addons).
+
+<!--more-->
 
 ## Assumptions
 - Home Assistant OS (not running standalone)
@@ -35,8 +40,10 @@ tags:
 2. Head to Add-Ons and add the repo `https://github.com/brenner-tobias/ha-addons` 
 	- Or use this one click URL [![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fbrenner-tobias%2Fha-addons)
 3. Install the Cloudflared add-on that's now available in your Add-On Store
+
 	 [![Open your Home Assistant instance and show the Supervisor add-on store.](https://my.home-assistant.io/badges/supervisor_store.svg)](https://my.home-assistant.io/redirect/supervisor_store/)
 4. Once it's installed, head to the Add-On and the Configuration Tab
+
 	[![Open your Home Assistant instance and show the dashboard of a Supervisor add-on.](https://my.home-assistant.io/badges/supervisor_addon.svg)](https://my.home-assistant.io/redirect/supervisor_addon/?addon=9074a9fa_cloudflared&repository_url=https%3A%2F%2Fgithub.com%2Fbrenner-tobias%2Fha-addons)
 5. Enter the token you noted from step 5 above in the Cloudflare Tunnel Token box and save your configuration
 6. Go back to the info tab and start the add-on
