@@ -22,7 +22,7 @@ If you'd like to set up and use Cloudflare Tunnels (or Cloudlfare Teams) with Ho
 
 ## Get Your Tunnel Ready
 
-1. Head to https://dash.teams.cloudflare.com/ and log in
+1. Head to `https://dash.teams.cloudflare.com/` and log in
 2. Expand Access > Tunnels
 3. Click the create tunnel button
 4. Give it a name (it can be anything)
