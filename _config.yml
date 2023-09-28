@@ -12,6 +12,12 @@ theme: jekyll-text-theme
 
 exclude:
   - .devcontainer
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - package-lock.json
+  - package.json
 
 permalink: /:categories/:title/
 markdown: kramdown
@@ -45,8 +51,3 @@ author:
 #   - title: Feed
 #     url: atom.xml
 #     icon: fas fa-rss-square
-
-# Theme options
-search_full_content: true
-category_archive_path: "/categories/#"
-tag_archive_path: "/tags/#"
