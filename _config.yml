@@ -12,6 +12,7 @@ theme: jekyll-text-theme
 
 exclude:
   - .devcontainer
+  - .github
   - Gemfile
   - Gemfile.lock
   - LICENSE
@@ -29,16 +30,16 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-paginate
+  - jemoji
 
 # Front Matter Defaults
 defaults:
-  # Posts defaults
   - scope:
       path: "_posts"
       type: posts
     values:
-      layout: post
-      share: false
+      layout: article
+      sharing: true
 
 # Site Author
 author:
@@ -46,8 +47,6 @@ author:
   email: hello@jamisonkissh.com
   url: "https://blog.jamisonkissh.com"
 
-# Footer Links
-# footer_links:
-#   - title: Feed
-#     url: atom.xml
-#     icon: fas fa-rss-square
+lang: en
+paginate: 8
+paginate_path: /page:num 
