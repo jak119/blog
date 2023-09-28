@@ -12,8 +12,8 @@ I found the documentation for the Ikea Tredansen blinds hard to follow if you're
 
 ## Before Starting
 
-* Ensure you have a TRÅDFRI bridge plugged in and the light is on
-* Ensure the blinds are charged and can be manually raised / lowered with the buttons
+- Ensure you have a TRÅDFRI bridge plugged in and the light is on
+- Ensure the blinds are charged and can be manually raised / lowered with the buttons
 
 ## Factory Reset and Re-Pair
 

@@ -49,4 +49,4 @@ author:
 
 lang: en
 paginate: 8
-paginate_path: /page:num 
+paginate_path: /page:num
