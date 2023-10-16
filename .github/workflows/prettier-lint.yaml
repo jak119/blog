@@ -1,14 +1,5 @@
 ---
-#################################
-#################################
-## Super Linter GitHub Actions ##
-#################################
-#################################
-name: Lint Code Base
-
-#############################
-# Start the job on all push #
-#############################
+name: Lint and Prettify Code Base
 on:
   push:
     branches-ignore: [master, main]
