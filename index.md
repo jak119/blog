@@ -1,6 +1,6 @@
 ---
 layout: home
-limit: 10
-show_excerpts: true
-entries_layout: list
+heading: "Jamison Kissh's Blog"
+subheading: "Covering mostly Home Assistant and self hosting"
+banner: "default"
 ---
