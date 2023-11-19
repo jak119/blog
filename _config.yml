@@ -16,13 +16,14 @@ exclude:
 permalink: /:categories/:title/
 markdown: kramdown
 feed:
-  path: atom.xml
+  path: feed.xml
 
 plugins:
+  - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-feed
   - jekyll-paginate
+  - jekyll-spaceship
 
 # Front Matter Defaults
 defaults:
