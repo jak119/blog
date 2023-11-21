@@ -8,38 +8,32 @@ twitter_username: jamisonkissh
 github_username: jak119
 
 # Build settings
-theme: jekyll-text-theme
+theme: jekyll-theme-yat
 
 exclude:
   - .devcontainer
-  - .github
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE
-  - README.md
-  - package-lock.json
-  - package.json
 
 permalink: /:categories/:title/
 markdown: kramdown
 feed:
-  path: atom.xml
+  path: feed.xml
 
 plugins:
+  - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-feed
   - jekyll-paginate
-  - jemoji
+  - jekyll-spaceship
 
 # Front Matter Defaults
 defaults:
+  # Posts defaults
   - scope:
       path: "_posts"
       type: posts
     values:
-      layout: article
-      sharing: true
+      layout: post
+      share: false
 
 # Site Author
 author:
@@ -47,6 +41,13 @@ author:
   email: hello@jamisonkissh.com
   url: "https://blog.jamisonkissh.com"
 
-lang: en
-paginate: 8
-paginate_path: /page:num
+# Footer Links
+# footer_links:
+#   - title: Feed
+#     url: atom.xml
+#     icon: fas fa-rss-square
+
+# Theme options
+search_full_content: true
+category_archive_path: "/categories/#"
+tag_archive_path: "/tags/#"
