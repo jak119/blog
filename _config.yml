@@ -23,7 +23,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-paginate
-  - jekyll-spaceship
   - jekyll-include-cache
 
 # Front Matter Defaults
