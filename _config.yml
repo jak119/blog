@@ -13,6 +13,9 @@ theme: minimal-mistakes-jekyll
 exclude:
   - .devcontainer
 
+include:
+  - _redirects
+
 permalink: /:categories/:title/
 markdown: kramdown
 feed:
