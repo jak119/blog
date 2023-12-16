@@ -41,6 +41,7 @@ If you'd like to set up and use Cloudflare Tunnels (or Cloudlfare Teams) with Ho
    trusted_proxies:
      - 172.30.33.0/24 # Docker network
    ```
+
 2. Head to Add-Ons and add the repository `https://github.com/brenner-tobias/ha-addons`
    - Or use this one click URL [![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fbrenner-tobias%2Fha-addons)
 3. Install the Cloudflared add-on that's now available in your Add-On Store
