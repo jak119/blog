@@ -36,6 +36,8 @@ defaults:
       layout: single
       show_date: true
       read_time: false
+      toc: true
+      toc_sticky: true
 
 # Site Author
 author:
