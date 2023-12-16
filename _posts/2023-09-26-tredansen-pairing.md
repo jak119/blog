@@ -28,4 +28,6 @@ I found the documentation for the Ikea Tredansen blinds hard to follow if you're
 
 If you're more of a visual learner, this is a good video walkthrough of the process
 
-![Video walkthrough of this post](https://www.youtube.com/embed/kvqFbKy_Ll4?si=6roWZYZ3UR5t4sUC)
+<!-- textlint-disable -->
+{% include video id="kvqFbKy_Ll4" provider="youtube" %}
+<!-- textlint-enable -->
