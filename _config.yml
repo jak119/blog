@@ -8,7 +8,7 @@ twitter_username: jamisonkissh
 github_username: jak119
 
 # Build settings
-theme: jekyll-theme-yat
+theme: minimal-mistakes-jekyll
 
 exclude:
   - .devcontainer
@@ -24,6 +24,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-spaceship
+  - jekyll-include-cache
 
 # Front Matter Defaults
 defaults:
@@ -32,8 +33,9 @@ defaults:
       path: "_posts"
       type: posts
     values:
-      layout: post
-      share: false
+      layout: single
+      show_date: true
+      read_time: false
 
 # Site Author
 author:
@@ -41,13 +43,3 @@ author:
   email: hello@jamisonkissh.com
   url: "https://blog.jamisonkissh.com"
 
-# Footer Links
-# footer_links:
-#   - title: Feed
-#     url: atom.xml
-#     icon: fas fa-rss-square
-
-# Theme options
-search_full_content: true
-category_archive_path: "/categories/#"
-tag_archive_path: "/tags/#"
