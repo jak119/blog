@@ -34,6 +34,7 @@ If you'd like to set up and use Cloudflare Tunnels (or Cloudlfare Teams) with Ho
 ## Set Up Home Assistant
 
 1. [Edit your configuration.yaml](https://www.home-assistant.io/docs/configuration/#editing-configurationyaml) to inclued the following to allow Home Assistant to function behind the tunnel
+
    ```yaml
    http:
    use_x_forwarded_for: true
@@ -53,6 +54,7 @@ If you'd like to set up and use Cloudflare Tunnels (or Cloudlfare Teams) with Ho
 5. Enter the token you noted from step 5 above in the Cloudflare Tunnel Token box and save your configuration
 6. Go back to the info tab and start the add-on
 7. Monitor the log for a few entries that look like this
+
    ```text
    2023-01-16T21:51:07Z INF Connection f7aea022-bb92-4fa8-98f3-0cde05e55243 registered with protocol: quic connIndex=0 ip=198.41.192.27 location=BOS
    2023-01-16T21:51:08Z INF Connection 84accc1c-27d2-4e29-94fc-40a5ae2f7c3e registered with protocol: quic connIndex=1 ip=198.41.200.53 location=ORD
