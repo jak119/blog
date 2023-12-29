@@ -5,6 +5,8 @@ categories:
 tags:
   - Azure
   - Backup
+  - addon
+  - automation
 excerpt_separator: <!--more-->
 ---
 
