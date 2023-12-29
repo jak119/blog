@@ -8,7 +8,7 @@ tags:
 excerpt_separator: <!--more-->
 ---
 
-As an Azure architect, I wanted to leverage Azure to host my Home Assistant backups. However, I discovered a lack of add-ons or integrations that seamlessly accomplished this task. A few years ago, I wrote my own solution to address this issue. 
+As an Azure architect, I wanted to leverage Azure to host my Home Assistant backups. However, I discovered a lack of add-ons or integrations that seamlessly accomplished this task. A few years ago, I wrote my own solution to address this issue.
 Over time, it has evolved, now utilizing the lighter Azcopy CLI instead of the full Azure CLI. Recently, a kind contributor enhanced it by adding Service Principal authentication alongside the original SAS token authentication.
 
 ## What it Does
