@@ -30,7 +30,7 @@ You can stop here, but to avoid sending unnecessary data to OpenAI I also did th
 
     Note: I was having issues with this, but found that I could just insert a simple space then save
 
-4. You can also change the model that's being used here, I left it on `gpt-3.5-turbo`. You can find a [full list of models in the OpenAI Platform docs](https://platform.openai.com/docs/models). 
+4. You can also change the model that's being used here, I left it on `gpt-3.5-turbo`. You can find a [full list of models in the OpenAI Platform docs](https://platform.openai.com/docs/models).
 
     I did try GPT 4 but found that it was about 5x more expensive (costing ~$0.04 per call) and I wanted to be frugal with 3.5 which is running me <$0.01 / day.
 
