@@ -6,6 +6,7 @@ tags:
   - cloudflare
   - cloudflare teams
 excerpt_separator: <!--more-->
+toc: false
 ---
 
 To exclude a specific path in Cloudflare Zero Trust (e.g., the share URL in Paperless-ngx) you need to:<!--more-->
