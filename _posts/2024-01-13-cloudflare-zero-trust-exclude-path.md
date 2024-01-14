@@ -8,7 +8,7 @@ tags:
 excerpt_separator: <!--more-->
 ---
 
-To exclude a specific path in Cloudflare Zero Trust (e.g., the share URL in Paperless-ngx) you need to:
+To exclude a specific path in Cloudflare Zero Trust (e.g., the share URL in Paperless-ngx) you need to:<!--more-->
 
 1. Add a new application set the URL as the path to exclude
 2. Add a policy where the action is bypass and the selector for include is everyone
