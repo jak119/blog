@@ -9,7 +9,7 @@ excerpt_separator: <!--more-->
 toc: false
 ---
 
-**Update:** As of [Core 2024.6](https://www.home-assistant.io/blog/2024/06/05/release-20246/#dipping-our-toes-in-the-world-of-ai-using-llms) this is no longer necessary. 
+**Update:** As of [Core 2024.6](https://www.home-assistant.io/blog/2024/06/05/release-20246/#dipping-our-toes-in-the-world-of-ai-using-llms) this is no longer necessary.
 {: .notice--info}
 
 The default OpenAI / ChatGPT integration prompt only sends the API your Home Assistant instance's areas and list of devices, but it doesn't include the state information. This means that you could ask questions about what's in a room, but not about which lights are on in a room. Since my primary goal was to inquire about the lights, I spent some time tweaking the prompt.<!--more-->
