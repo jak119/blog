@@ -45,8 +45,7 @@ You can stop here, but to avoid sending unnecessary data to OpenAI, I also did t
 The Blueprint linked at the top of this post assumes you have a working weather integration, your calendar available, and a notify service that supports enough long messages. For me, this meant using:
 
 - [Google Calendar](https://www.home-assistant.io/integrations/google/)
-- [Tomorrow.io](https://www.home-assistant.io/integrations/tomorrowio/)
-  - I usually use the [US NWS](https://www.home-assistant.io/integrations/nws/), but there are API issues, apparently.
+- The [US National Weather Service (NWS)](https://www.home-assistant.io/integrations/nws/)
 - [SendGrid](https://www.home-assistant.io/integrations/sendgrid/)
 
 ### Import the Blueprint
