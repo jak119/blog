@@ -8,7 +8,7 @@ tags:
 excerpt_separator: <!--more-->
 ---
 
-I'm a little late jumping on the OpenAI / ChatGPT bandwagon, but I decided to try out [Allen Porter's seemingly infamous blueprint](https://gist.github.com/allenporter/e70d9eb090c7dbdd593cf526e07b4abe). However, many of the OpenAI blog posts I found were a bit out of date. Below is how I set it up.
+I'm a little late jumping on the OpenAI / ChatGPT bandwagon, but I decided to try out [Allen Porter's seemingly infamous blueprint](https://gist.github.com/allenporter/e70d9eb090c7dbdd593cf526e07b4abe). However, many of the OpenAI blog posts I found were a bit out of date. <!--more-->Below is how I set it up.
 
 ## Get an OpenAI API Key
 
