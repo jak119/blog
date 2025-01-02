@@ -22,7 +22,7 @@ Today I’m sharing how I set up an automation to remind me when it’s time to 
 
 ### Step 1: Create a Datetime Helper
 
-In Home Assistant, go to **[Settings > Devices & Services > Helpers](https://my.home-assistant.io/redirect/helpers/)** and create a datetime helper. Name it something like `pickup_time` which will become `input_datetime.pickup_time`.
+In Home Assistant, go to [Settings \> Devices \& Services \> Helpers](https://my.home-assistant.io/redirect/helpers/) and create a datetime helper. Name it something like `pickup_time` which will become `input_datetime.pickup_time`.
 
 ### Step 2: Configure the Waze Integration
 
