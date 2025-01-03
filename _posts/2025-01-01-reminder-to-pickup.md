@@ -9,14 +9,14 @@ excerpt_separator: <!--more-->
 toc: false
 ---
 
-Today I’m sharing how I set up an automation to remind me when it’s time to pick up my wife. This uses a combination of a datetime helper, the Waze integration, a template helper, and automations.
+Today I'm sharing how I set up an automation to remind me when it's time to pick up my wife. This uses a combination of a datetime helper, the Waze integration, a template helper, and automations.
 
 ## What This Is Comprised Of
 
 1. **Datetime Helper**: Allows you to set the time when you need to pick someone up.
 2. **Waze Integration**: Calculates travel time between two locations using `person` entities.
 3. **Template Helper**: Dynamically calculates when to leave based on travel time and pickup time.
-4. **Push Notification**: Sends an alert to your phone when it’s time to leave using a `notify` service.
+4. **Push Notification**: Sends an alert to your phone when it's time to leave using a `notify` service.
 
 ## Getting Started
 
@@ -32,6 +32,7 @@ In Home Assistant, go to [Settings \> Devices \& Services \> Helpers](https://my
 
 Create a new template sensor, this template sensor calculates the time to leave based on the datetime helper and the Waze travel time. Let's assume it'll be named `sensor.time_to_leave`.
 
+{% raw %}
 ```text
 {% set travel_time = states('sensor.waze_travel_time') | int(default=0) %}
 {% set pickup_time = (states('input_datetime.pickup_time') | as_datetime | default(now())).replace(tzinfo=now().tzinfo) %}
@@ -41,10 +42,11 @@ Create a new template sensor, this template sensor calculates the time to leave 
   {{ null }}
 {% endif %}
 ```
+{% endraw %}
 
 ### Step 4: Write the Automation
 
-This automation sends a push notification to your phone when it’s time to leave.
+This automation sends a push notification to your phone when it's time to leave.
 
 ```yaml
 alias: Reminder to leave to pickup ...
