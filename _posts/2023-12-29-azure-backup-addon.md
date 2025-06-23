@@ -10,6 +10,9 @@ tags:
 excerpt_separator: <!--more-->
 ---
 
+**Update:** With the revamp of backups in Core 2026.1 and the [Azure Storage](https://www.home-assistant.io/integrations/azure_storage) integration I have decided to deprecate this add-on.
+{: .notice--info}
+
 As an Azure architect, I wanted to leverage Azure to host my Home Assistant backups. However, I quickly found a lack of add-ons or integrations that did so. A few years ago, I wrote my own solution to address this issue.
 Over time, it has evolved, now utilizing the lighter Azcopy CLI instead of the full Azure CLI. Recently, a kind contributor enhanced it by adding Service Principal authentication alongside the original SAS token authentication.
 
